@@ -1,7 +1,8 @@
 import NavBar from "../components/NavBar";
 import ProjectCard from "../components/ProjectCard";
-import meImage from "../images/Me.jpg";
 import localMusicFinderLogo from "../images/music-finder-logo.png";
+import personalWebsiteImage from "../images/personal-website.png";
+import threeTriosImage from "../images/three-trios.png";
 
 function Projects() {
   return (
@@ -10,21 +11,56 @@ function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-10 place-items-center">
         <ProjectCard
           imgSrc={localMusicFinderLogo}
-          title="The Local Music Finder"
-          description="The Local Music Finder is a website that allows bars and bands to connect with local
-          music fans. "
-          skills={["Python", "Typescript", "React", "React", "React"]}
-          gitHubLink="https://github.com/jpraissman/local-music-finder-backend"
+          title="TheLocalMusicFinder.com"
+          descriptionBullets={[
+            "Full-stack web app that connects local venues and musicians with music fans, primarily in Northern/Central New Jersey.",
+            "150 users a week and growing.",
+            "Developed a custom RESTful API for the backend.",
+            "Integrated Google Maps API for dynamic event distance calculations based on user location.",
+          ]}
+          skills={[
+            "Python",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "PostgreSQL",
+            "Flask",
+            "Google Cloud Platform",
+            "AWS",
+          ]}
+          gitHubLink=""
           websiteLink="https://www.thelocalmusicfinder.com/"
+          backendLink="https://github.com/jpraissman/local-music-finder-backend"
+          frontendLink="https://github.com/jpraissman/local-music-finder-frontend-new"
         />
         <ProjectCard
-          imgSrc={localMusicFinderLogo}
-          title="The Local Music Finder"
-          description="The Local Music Finder is a website that allows bars and bands to connect with local
-          music fans. "
-          skills={["Python", "Typescript", "React", "React", "React"]}
+          imgSrc={personalWebsiteImage}
+          title="Personal Website"
+          descriptionBullets={[
+            "Full-stack web app that connects local venues and musicians with music fans, primarily in Northern/Central New Jersey.",
+            "150 users a week and growing.",
+            "Developed a custom RESTful API for the backend.",
+            "Integrated Google Maps API for dynamic event distance calculations based on user location.",
+          ]}
+          skills={["TypeScript", "React", "Tailwind CSS", "Vercel"]}
+          gitHubLink="https://github.com/jpraissman/personal-website"
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={threeTriosImage}
+          title="Three Trios"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
           gitHubLink=""
           websiteLink=""
+          backendLink=""
+          frontendLink=""
         />
       </div>
     </div>
