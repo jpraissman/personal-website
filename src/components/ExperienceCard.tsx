@@ -1,18 +1,25 @@
 function ExperienceCard({
   imgSrc,
   title,
-  companyAndLocation,
+  companyAndDate,
   descriptionBullets,
   skills,
+  companyWebsite,
 }: {
   imgSrc: string;
   title: string;
-  companyAndLocation: string;
+  companyAndDate: string;
   descriptionBullets: string[];
   skills: string[];
+  companyWebsite: string;
 }) {
   return (
-    <div className="flex w-full lg:w-4/5 flex-col md:flex-row h-auto items-center bg-white border-gray-200 rounded-lg shadow hover:bg-gray-100">
+    <a
+      href={companyWebsite}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex w-full lg:w-4/5 flex-col md:flex-row h-auto items-center bg-white border-gray-200 rounded-lg shadow hover:bg-gray-100"
+    >
       <img
         className="object-cover w-full h-auto md:h-80 md:w-auto rounded-t-lg"
         src={imgSrc}
@@ -23,7 +30,7 @@ function ExperienceCard({
           {title}
         </h5>
         <h3 className="mb-4 text-lg font-semibold tracking-tight text-gray-900">
-          {companyAndLocation}
+          {companyAndDate}
         </h3>
         <ul className="mb-6 font-normal text-gray-700 list-disc pl-4">
           {descriptionBullets.map((bullet: string) => (
@@ -38,7 +45,7 @@ function ExperienceCard({
           ))}
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 

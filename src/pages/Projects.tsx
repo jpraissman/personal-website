@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import localMusicFinderLogo from "../images/music-finder-logo.png";
 import personalWebsiteImage from "../images/personal-website.png";
 import threeTriosImage from "../images/three-trios.png";
+import squareGameImage from "../images/square-game.png";
 
 function Projects() {
   return (
@@ -51,6 +52,20 @@ function Projects() {
         <ProjectCard
           imgSrc={threeTriosImage}
           title="Three Trios"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
           descriptionBullets={[
             "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
             "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
