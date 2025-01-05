@@ -6,7 +6,7 @@ function NavBar() {
           href={"/"}
           className="text-3xl text-white font-bold hover:text-gray-300"
         >
-          Test Testman
+          Jordan Praissman
         </a>
       </div>
       <div className="space-x-8 text-xl text-right text-white font-semibold">

@@ -46,7 +46,7 @@ function ExperienceCard({
             alt=""
           />
         </a>
-        <div className="flex flex-col justify-between p-4 gap-1 w-full md:w-3/5">
+        <div className="flex flex-col justify-between p-4 gap-1 w-full md:w-4/6">
           <h5 className="pb-2 text-2xl font-bold tracking-tight text-gray-900">
             {title}
           </h5>

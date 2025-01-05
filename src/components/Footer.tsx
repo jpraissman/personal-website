@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 function Footer() {
   return (
     <div className="flex max-w-screen items-center gap-1 justify-center p-2 text-gray-200 text-lg">
-      <span>Made by Test Testman | </span>
+      <span>Made by Jordan Praissman | </span>
       <div className="flex flex-row gap-3">
         <a
           className="hover:text-gray-300"

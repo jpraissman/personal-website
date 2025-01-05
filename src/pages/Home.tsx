@@ -24,7 +24,7 @@ function Home() {
             transition={{ duration: 2 }}
             className="space-y-3"
           >
-            <h1 className="text-7xl font-bold">Test Testman</h1>
+            <h1 className="text-7xl font-bold">Jordan Praissman</h1>
             <h2 className="text-2xl font-bold pt-3">A Bit About Me</h2>
             <h3 className="text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

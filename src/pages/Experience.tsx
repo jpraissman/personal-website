@@ -15,13 +15,13 @@ function Experience() {
       <motion.span
         initial={{ y: "-500%" }}
         animate={{ y: "0" }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 2.5 }}
         className="text-center text-white text-xl font-semibold pt-2"
       >
         Read more about these experiences on{" "}
         <a
           className="hover:text-gray-200"
-          href="https://www.linkedin.com/in/jordan-praissman/"
+          href="https://www.linkedin.com/in/jordan-praissman/details/experience/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -51,13 +51,8 @@ function Experience() {
           title="Data & Technology Associate"
           company="Make Tech Work For You"
           dates="May 2021 - Sept. 2024 (3 yrs 5 months)"
-          descriptionBullets={[
-            "Completed 20+ projects for 4 clients that focused on optimizing business processes (3 examples below).",
-            "Developed and launched a student portal used by 100+ students that enables them to create accounts, update important personal information, self-report grades, sign up for events, etc.",
-            "Built portal using FormAssembly with custom HTML/CSS/JavaScript that integrates with Salesforce.",
-            "Created a Salesforce app with custom data structures and process flows to streamline client’s workforce development program, saving employees 10+ hours of work per week while improving data accuracy.",
-            "Coded process in Python that used the Expensify API to automate client’s expense tracking report.",
-          ]}
+          description="Completed 20+ projects for 4 clients that focused on optimizing and automating 
+          business processes."
           skills={[
             "Python",
             "JavaScript",
@@ -71,11 +66,9 @@ function Experience() {
         <ExperienceCard
           imgSrc={tmcImage}
           title="Freelance Software Developer"
-          company="The Management Center | April 2024 - June 2024"
-          descriptionBullets={[
-            "Automated 2 weekly manual tasks of downloading, analyzing, formatting, and neatly displaying recruiting data from JazzHR (client’s recruiting software) into Google Sheets.",
-            "These automations saved employees an estimated 4+ hours of time-consuming work every week and were built using Python, JazzHR API, Google Sheets API, and Google Cloud Functions.",
-          ]}
+          company="The Management Center"
+          dates="April 2024 - June 2024 (3 months)"
+          description="Developed Python scripts to automate 2 weekly manual tasks for company."
           skills={[
             "Python",
             "Google Cloud Platform",
@@ -87,18 +80,12 @@ function Experience() {
         <ExperienceCard
           imgSrc={oasisImage}
           title="Software Developer"
-          company="Oasis at Northeastern | Jan. 2024 - May 2024"
-          descriptionBullets={[
-            "Automated 2 weekly manual tasks of downloading, analyzing, formatting, and neatly displaying recruiting data from JazzHR (client’s recruiting software) into Google Sheets.",
-            "These automations saved employees an estimated 4+ hours of time-consuming work every week and were built using Python, JazzHR API, Google Sheets API, and Google Cloud Functions.",
-          ]}
-          skills={[
-            "Python",
-            "Google Cloud Platform",
-            "JazzHR API",
-            "Google Sheets API",
-          ]}
-          companyWebsite="https://www.managementcenter.org/"
+          company="Oasis at Northeastern"
+          dates="Jan. 2024 - May 2024 (5 months)"
+          description="Collaborated with team of 4 developers to create a web application
+          that matches people with gym partners."
+          skills={["TypeScript", "React", "Next.js", "Supabase", "Material UI"]}
+          companyWebsite="https://oasisneu.com/"
         />
       </div>
       <Footer />
