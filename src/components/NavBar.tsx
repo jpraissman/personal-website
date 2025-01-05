@@ -1,5 +1,3 @@
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
 function NavBar() {
   return (
     <div className="flex flex-col justify-between md:flex-row max-w-screen gap-4 items-center p-4">
