@@ -34,7 +34,7 @@ function Projects() {
           backendLink="https://github.com/jpraissman/local-music-finder-backend"
           frontendLink="https://github.com/jpraissman/local-music-finder-frontend-new"
         />
-        <ProjectCard
+        {/* <ProjectCard
           imgSrc={personalWebsiteImage}
           title="Personal Website"
           descriptionBullets={[
@@ -48,10 +48,80 @@ function Projects() {
           websiteLink=""
           backendLink=""
           frontendLink=""
-        />
+        /> */}
         <ProjectCard
           imgSrc={threeTriosImage}
           title="Three Trios"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
+          descriptionBullets={[
+            "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
+            "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",
+            "Tested entire codebase using JUnit with around 95% code coverage.",
+          ]}
+          skills={["Java", "JUnit", "Java Swing"]}
+          gitHubLink=""
+          websiteLink=""
+          backendLink=""
+          frontendLink=""
+        />
+        <ProjectCard
+          imgSrc={squareGameImage}
+          title="Square Game"
           descriptionBullets={[
             "Designed and implemented a variation of the card game Triple Triad using the MVC design pattern, along with the Strategy, Adapter, and Observer design patterns.",
             "Collaborated on a team of 2 developers through pair programming sessions and using Git/GitHub.",

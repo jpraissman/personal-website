@@ -1,3 +1,5 @@
+import * as motion from "motion/react-client";
+
 function ProjectCard({
   imgSrc,
   title,
@@ -18,7 +20,18 @@ function ProjectCard({
   frontendLink: string;
 }) {
   return (
-    <div className="flex flex-col h-auto items-center bg-white border-gray-200 rounded-lg shadow hover:bg-gray-100 w-full">
+    <motion.div
+      initial={{ opacity: 0.5, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        type: "tween",
+        ease: "easeOut",
+        duration: 0.5,
+      }}
+      whileHover={{ scale: 1.05 }}
+      className="flex flex-col h-auto items-center bg-white border-gray-200 rounded-lg shadow hover:bg-gray-100 w-full"
+    >
       <img
         className="object-cover w-full rounded-t-lg h-auto"
         src={imgSrc}
@@ -144,7 +157,7 @@ function ProjectCard({
           </a>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
