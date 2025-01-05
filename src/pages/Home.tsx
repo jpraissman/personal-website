@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import meImage from "../images/Me.jpg";
 import * as motion from "motion/react-client";
@@ -37,6 +38,7 @@ function Home() {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

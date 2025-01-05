@@ -4,6 +4,7 @@ import localMusicFinderLogo from "../images/music-finder-logo.png";
 import personalWebsiteImage from "../images/personal-website.png";
 import threeTriosImage from "../images/three-trios.png";
 import squareGameImage from "../images/square-game.png";
+import Footer from "../components/Footer";
 
 function Projects() {
   return (
@@ -148,6 +149,7 @@ function Projects() {
           frontendLink=""
         />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import mtwfyImage from "../images/mtwfy.png";
 import tmcImage from "../images/tmc.jpg";
 import oasisImage from "../images/oasis.jpg";
 import * as motion from "motion/react-client";
+import Footer from "../components/Footer";
 
 function Experience() {
   return (
@@ -75,6 +76,7 @@ function Experience() {
           companyWebsite="https://www.managementcenter.org/"
         />
       </div>
+      <Footer />
     </div>
   );
 }
