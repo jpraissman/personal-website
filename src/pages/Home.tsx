@@ -1,4 +1,3 @@
-import { duration } from "@mui/material";
 import NavBar from "../components/NavBar";
 import meImage from "../images/Me.jpg";
 import * as motion from "motion/react-client";
