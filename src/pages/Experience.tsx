@@ -4,21 +4,46 @@ import sandboxImage from "../images/sandbox.png";
 import mtwfyImage from "../images/mtwfy.png";
 import tmcImage from "../images/tmc.jpg";
 import oasisImage from "../images/oasis.jpg";
-import * as motion from "motion/react-client";
 import Footer from "../components/Footer";
+import { LinkedIn } from "@mui/icons-material";
+import * as motion from "motion/react-client";
 
 function Experience() {
   return (
     <div className="grid grid-rows-[auto_1fr] min-h-screen items-center bg-sky-600">
       <NavBar />
+      <motion.span
+        initial={{ y: "-500%" }}
+        animate={{ y: "0" }}
+        transition={{ duration: 2 }}
+        className="text-center text-white text-xl font-semibold pt-2"
+      >
+        Read more about these experiences on{" "}
+        <a
+          className="hover:text-gray-200"
+          href="https://www.linkedin.com/in/jordan-praissman/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedIn fontSize="large" />
+        </a>
+      </motion.span>
       <div className="grid grid-cols-1 p-10 place-items-center">
         <ExperienceCard
           imgSrc={sandboxImage}
           title="Project Lead & Full-stack Developer"
           company="Sandbox at Northeastern"
           dates={"Sept. 2024 - Present"}
-          description="Leading the development of a project"
-          skills={["TypeScript", "React", "Docker", "tRPC"]}
+          description="Leading a team through the development of a full-stack web application for
+          Northeastern's student-led software consultancy."
+          skills={[
+            "TypeScript",
+            "React",
+            "PostgreSQL",
+            "Docker",
+            "tRPC",
+            "Tailwind CSS",
+          ]}
           companyWebsite="https://www.sandboxnu.com/"
         />
         <ExperienceCard

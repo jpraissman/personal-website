@@ -46,7 +46,7 @@ function ExperienceCard({
             alt=""
           />
         </a>
-        <div className="flex flex-col justify-between p-4 gap-1">
+        <div className="flex flex-col justify-between p-4 gap-1 w-full md:w-3/5">
           <h5 className="pb-2 text-2xl font-bold tracking-tight text-gray-900">
             {title}
           </h5>
@@ -62,9 +62,7 @@ function ExperienceCard({
           </div>
           <div className="flex items-center space-x-2 pt-3 pb-5">
             <DescriptionIcon fontSize="small" className="text-orange-700" />
-            <span className="text-md font-semibold text-gray-900">
-              {description}
-            </span>
+            <span className="text-md text-gray-900">{description}</span>
           </div>
           <div className="flex flex-row flex-wrap gap-1">
             {skills.map((skill: string) => (
