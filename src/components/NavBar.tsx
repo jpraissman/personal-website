@@ -16,7 +16,14 @@ function NavBar() {
         <a className="hover:text-gray-300" href={"/projects"}>
           Projects
         </a>
-        <a className="hover:text-gray-300" href={"/resume"}>
+        <a
+          className="hover:text-gray-300"
+          href={
+            "https://drive.google.com/file/d/1S0kuqGp79AYU2BJkZs6CNw9D5wwofNDU/view?usp=sharing"
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
         </a>
       </div>

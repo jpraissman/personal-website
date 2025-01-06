@@ -27,13 +27,19 @@ function Home() {
             <h1 className="text-7xl font-bold">Jordan Praissman</h1>
             <h2 className="text-2xl font-bold pt-3">A Bit About Me</h2>
             <h3 className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I'm a 2nd-year Computer Science major at{" "}
+              <span className="font-bold underline">
+                Northeastern University
+              </span>{" "}
+              pursuing a career in software engineering. I'm passionate about
+              building software that improves and benefits people's lives.
+              Currently, I'm a project lead & software developer at Sandbox,
+              Northeastern’s student-led software consultancy, where I'm
+              leading/collaborating with a team to develop a full-stack web app
+              to automate an organization's music licensing process. In my free
+              time, I work on TheLocalMusicFinder.com, a platform connecting
+              local venues, musicians, and music fans. Feel free to connect with
+              me!
             </h3>
           </motion.div>
         </div>

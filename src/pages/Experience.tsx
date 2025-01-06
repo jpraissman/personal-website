@@ -15,7 +15,7 @@ function Experience() {
       <motion.span
         initial={{ y: "-500%" }}
         animate={{ y: "0" }}
-        transition={{ duration: 2.5 }}
+        transition={{ duration: 2 }}
         className="text-center text-white text-xl font-semibold pt-2"
       >
         Read more about these experiences on{" "}

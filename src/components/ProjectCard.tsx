@@ -37,7 +37,7 @@ function ProjectCard({
         src={imgSrc}
         alt=""
       />
-      <div className="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal w-full">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
           {title}
         </h5>
