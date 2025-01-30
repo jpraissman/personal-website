@@ -19,7 +19,7 @@ function NavBar() {
         <a
           className="hover:text-gray-300"
           href={
-            "https://drive.google.com/file/d/1S0kuqGp79AYU2BJkZs6CNw9D5wwofNDU/view?usp=sharing"
+            "https://drive.google.com/file/d/1ZKH8KhJhLFV0jSkLDFzzbPD-Ue5l6-GM/view?usp=sharing"
           }
           target="_blank"
           rel="noopener noreferrer"
