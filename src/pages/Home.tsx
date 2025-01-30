@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import meImage from "../images/Me.jpg";
+import me2Image from "../images/Me2.jpeg";
 import * as motion from "motion/react-client";
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 2 }}
-            src={meImage}
+            src={me2Image}
             className="w-3/5 h-auto rounded-full mx-auto md:mx-0"
           />
         </div>
