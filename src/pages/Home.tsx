@@ -1,6 +1,5 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import meImage from "../images/Me.jpg";
 import me2Image from "../images/Me2.jpeg";
 import * as motion from "motion/react-client";
 
