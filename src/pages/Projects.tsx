@@ -81,7 +81,7 @@ function Projects() {
             "Built profile filtering system and chat system to allow communication between users.",
           ]}
           skills={["TypeScript", "React", "Next.js", "Supabase", "Material UI"]}
-          gitHubLink=""
+          gitHubLink="https://github.com/caiodasilva2005/Ludis"
           websiteLink=""
           backendLink=""
           frontendLink=""
