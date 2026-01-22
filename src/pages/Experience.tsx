@@ -68,7 +68,7 @@ function Experience() {
           imgSrc={mtwfyImage}
           title="Data & Technology Associate"
           company="Make Tech Work For You"
-          dates="May 2021 - June. 2025 (4 yrs 2 months)"
+          dates="May 2021 - June 2025 (4 yrs 2 months)"
           description="Completed 20+ projects for 4 clients that focused on optimizing and automating 
           business processes."
           skills={[
