@@ -1,6 +1,7 @@
 import ExperienceCard from "../components/ExperienceCard";
 import NavBar from "../components/NavBar";
 import sandboxImage from "../images/sandbox.png";
+import simplisafeImage from "../images/simplisafe.png";
 import mtwfyImage from "../images/mtwfy.png";
 import tmcImage from "../images/tmc.jpg";
 import oasisImage from "../images/oasis.jpg";
@@ -30,6 +31,23 @@ function Experience() {
       </motion.span>
       <div className="grid grid-cols-1 p-10 place-items-center">
         <ExperienceCard
+          imgSrc={simplisafeImage}
+          title="Software Engineer Co-op"
+          company="SimpliSafe"
+          dates={"July 2025 - Present"}
+          description="Contributing to 3 full-stack applications using TypeScript, NestJS, React, DynamoDB, and Amazon SQS, 
+          as well as a hexagonal architecture with RESTful API calls and the publisher-subscriber pattern."
+          skills={[
+            "TypeScript",
+            "NestJS",
+            "React",
+            "DynamoDB",
+            "Amazon SQS",
+            "AWS",
+          ]}
+          companyWebsite="https://simplisafe.com/"
+        />
+        <ExperienceCard
           imgSrc={sandboxImage}
           title="Project Lead & Full-stack Developer"
           company="Sandbox at Northeastern"
@@ -50,7 +68,7 @@ function Experience() {
           imgSrc={mtwfyImage}
           title="Data & Technology Associate"
           company="Make Tech Work For You"
-          dates="May 2021 - Sept. 2024 (3 yrs 5 months)"
+          dates="May 2021 - June. 2025 (4 yrs 2 months)"
           description="Completed 20+ projects for 4 clients that focused on optimizing and automating 
           business processes."
           skills={[

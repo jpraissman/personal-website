@@ -18,23 +18,25 @@ function Projects() {
           title="TheLocalMusicFinder.com"
           descriptionBullets={[
             "Full-stack web app that connects local venues and musicians with music fans, primarily in Northern/Central New Jersey.",
-            "150 users a week and growing.",
-            "Developed a custom RESTful API for the backend.",
+            "700 users a week and growing.",
             "Integrated Google Maps API for dynamic event distance calculations based on user location.",
+            "Rewrote backend in Java (Spring Boot) using a hexagonal architecture for a more scalable app.",
+            "Built custom analytics system to get insights into user experience and identify features to develop/improve.",
           ]}
           skills={[
-            "Python",
+            "Java",
+            "Spring Boot",
             "TypeScript",
             "React",
             "Next.js",
             "PostgreSQL",
+            "Python",
             "Flask",
             "Google Cloud Platform",
-            "AWS",
           ]}
           gitHubLink=""
           websiteLink="https://www.thelocalmusicfinder.com/"
-          backendLink="https://github.com/jpraissman/local-music-finder-backend"
+          backendLink="https://github.com/jpraissman/local-music-finder-backend-new"
           frontendLink="https://github.com/jpraissman/local-music-finder-frontend-new"
         />
         <ProjectCard

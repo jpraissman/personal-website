@@ -27,25 +27,32 @@ function Home() {
             <h1 className="text-7xl font-bold">Jordan Praissman</h1>
             <h2 className="text-2xl font-bold pt-3">A Bit About Me</h2>
             <h3 className="text-lg">
-              I'm a 2nd-year Computer Science major at{" "}
-              <span className="font-bold">Northeastern University</span>{" "}
-              pursuing a career in software engineering. I'm passionate about
-              building software that improves and benefits people's lives.
-              Currently, I'm a project lead & software developer at Sandbox,
-              Northeastern’s student-led software consultancy, where I'm
-              leading/collaborating with a team to develop a full-stack web app
-              to automate an organization's music licensing process. In my free
-              time, I work on{" "}
+              I'm a 3rd-year Computer Science major at{" "}
+              <strong>Northeastern University</strong> pursuing a career in
+              software engineering.
+              <br />
+              <br />
+              I'm currently a part-time software engineer (previously a
+              full-time co-op) at SimpliSafe, where I contribute to internal
+              tools to help agents manage orders, RMAs, and leads. I'm also a
+              project lead & software developer at Sandbox, Northeastern's
+              student-led software consultancy, where I'm leading/collaborating
+              with a team to develop a full-stack web app to automate an
+              organization's music licensing process.
+              <br />
+              <br />
+              In my free time, I work on{" "}
               <a
-                href={"https://www.thelocalmusicfinder.com/"}
+                href="https://thelocalmusicfinder.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline"
+                className="underline hover:text-blue-200"
               >
                 TheLocalMusicFinder.com
               </a>
-              , a platform connecting local venues, musicians, and music fans.
-              Feel free to connect with me!
+              , a platform connecting local venues, musicians, and music fans
+              with 2,000 monthly users and growing. Feel free to connect with
+              me!
             </h3>
           </motion.div>
         </div>
